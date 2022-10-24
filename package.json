@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "pinia": "^2.0.23",
-    "vue": "^3.2.37",
+    "vue": "^3.0.0",
     "vue-i18n": "^9.2.2",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "vite-vue-starter-slave": "file:../vite-vue-starter-slave"
   },
   "devDependencies": {
     "@types/node": "^18.11.4",
