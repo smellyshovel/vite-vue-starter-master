@@ -1,0 +1,10 @@
+{
+  "locales": {
+    "en": "Inglés",
+    "es": "Español"
+  },
+  "home": "Inicio",
+  "about": "Acerca",
+  "vite-vue-starter-master": "Vite Vue Starter Master",
+  "child-component": "Componente Secundario"
+}

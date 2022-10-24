@@ -1,4 +1,10 @@
 <template>
-  <h1>Vite Vue Starter Master</h1>
-  <h2>Child Component</h2>
+  <h1>{{ t("vite-vue-starter-master") }}</h1>
+  <h2>{{ t("child-component") }}</h2>
 </template>
+
+<script setup lang="ts">
+  import { useI18n } from "vue-i18n";
+
+  const { t } = useI18n();
+</script>
