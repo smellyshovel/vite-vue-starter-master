@@ -7,6 +7,9 @@
     <title>Vite Vue Starter Master</title>
   </head>
   <body>
+    <p vite-if="!import.meta.env.PROD">
+      This paragraph is only visible in the DEV mode. See index.html to find out how to use env. variables in HTML.
+    </p>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>

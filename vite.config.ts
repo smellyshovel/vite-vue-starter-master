@@ -1,5 +1,6 @@
 import { defineConfig, loadEnv } from "vite";
 import vue from "@vitejs/plugin-vue";
+import vitePluginHtmlEnv from "vite-plugin-html-env";
 import { visualizer } from "rollup-plugin-visualizer";
 
 // https://vitejs.dev/config/
@@ -8,7 +9,7 @@ export default ({ mode }) => {
   process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
 
   return defineConfig({
-    plugins: [vue(), visualizer()],
+    plugins: [vitePluginHtmlEnv(), vue(), visualizer()],
 
     resolve: {
       // add here all the slaves' peer dependencies
