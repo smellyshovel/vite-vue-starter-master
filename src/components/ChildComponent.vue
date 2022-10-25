@@ -12,6 +12,7 @@
 <script setup lang="ts">
   import { ref } from "vue";
   import { SlaveComponent, utils } from "vite-vue-starter-slave";
+  import "vite-vue-starter-slave/dist/style.css";
   import { useI18n } from "vue-i18n";
 
   const { t } = useI18n();
