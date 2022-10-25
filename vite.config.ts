@@ -12,17 +12,27 @@ export default ({ mode }) => {
     plugins: [vitePluginHtmlEnv(), vue(), visualizer()],
 
     resolve: {
-      // add here all the slaves' peer dependencies
+      // TODO: list all the direct slaves' peer dependencies
       dedupe: ["vue"],
     },
 
     optimizeDeps: {
-      // add here all the slaves
+      // TODO: list all the direct slaves
       exclude: ["vite-vue-starter-slave"],
     },
 
+    // TODO: uncomment to fix DX
+    // esbuild: {
+    //   treeShaking: false,/
+    // },
+
     build: {
       sourcemap: true,
+
+      // TODO: uncomment to fix DX
+      // rollupOptions: {
+      //   treeshake: false,
+      // },
     },
 
     server: {
