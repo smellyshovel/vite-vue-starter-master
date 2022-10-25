@@ -9,6 +9,11 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
+  "lint-staged": {
+    "./src/**/*.{ts,js,cjs,vue}": [
+      "npm run build"
+    ]
+  },
   "dependencies": {
     "pinia": "^2.0.23",
     "vite-vue-starter-slave": "file:../vite-vue-starter-slave",
