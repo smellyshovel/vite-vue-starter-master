@@ -80,7 +80,7 @@ Here also go all the possible variations in relationships between the libraries 
 Start with the [slave-library](https://github.com/smellyshovel/vite-vue-starter-slave)'s README. Getting all the slaves up and running is the number zero step. In case where there takes place sub-slaving, start with the deepest dependency there is.
 
 1. Clone the repo
-2. Rename the folder to reflect your application's name
+2. Rename the folder to reflect your application's name. Rename the application in `package.json` respectively
 3. `rm -rf .git && git init` to re-initialize the `.git` folder in order to detach the library from _this_ repository
 4. List all the _direct_ slaves in the `package.json`'s `dependencies`
 5. list all the _direct_ slaves' names in the `package.json`'s `env:prep` script like this: `npm link vite-vue-starter-slave1 vite-vue-starter-slave2 vite-vue-starter-slave3`
