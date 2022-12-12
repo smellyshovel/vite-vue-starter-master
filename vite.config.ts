@@ -23,7 +23,7 @@ export default ({ mode }) => {
 
     // TODO: uncomment to fix DX
     // esbuild: {
-    //   treeShaking: false,/
+    //   treeShaking: false,
     // },
 
     build: {
