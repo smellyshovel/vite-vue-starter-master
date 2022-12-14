@@ -87,7 +87,8 @@ Start with the [slave-library](https://github.com/smellyshovel/vite-vue-starter-
 6. Satisfy all the `TODO`s in `vite.config.ts` and `tailwind.config.cjs`
 7. Run `npm install`
 8. Run `npm run env:prep`
-9. Keep developing the application with all the slave-libs being available
+9. Clear the .github folder's contents
+10. Keep developing the application with all the slave-libs being available
 
 ## Recommended IDE setup
 
