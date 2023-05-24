@@ -4,7 +4,7 @@ import vitePluginHtmlEnv from "vite-plugin-html-env";
 import { visualizer } from "rollup-plugin-visualizer";
 
 // https://vitejs.dev/config/
-export default ({ mode }) => {
+export default ({ mode }, { mode: string }) => {
   // make all the Vite's env. variables available in this config file
   process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
 
